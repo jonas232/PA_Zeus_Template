@@ -1,6 +1,9 @@
 # PA_Zeus_Template
 Template/Basics for a Project Awesome Zeus mission
 
+Mission:
+To open this in the Eden editor, copy description.ext and mission.sqm into a new mission folder in mpmissions, add ".ProvingGrounds_PMC" to the end of the folder name.
+
 Respawn:
 To create new or initial respawn(s), in Zeus; go to the "Respawn" tab and place down a respawn for INF/Vehicles in the corresponding SIDE.
 
