@@ -1,6 +1,6 @@
 respawn = "BASE";
 respawndelay = 5;
-respawnOnStart = 1;
+respawnOnStart = 0;
 respawnTemplates[] = {"MenuInventory","MenuPosition"};
 
 disabledAI = true;
