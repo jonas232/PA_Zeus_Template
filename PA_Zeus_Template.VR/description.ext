@@ -1,6 +1,6 @@
 respawn = "BASE";
 respawndelay = 5;
-respawnOnStart = 0;
+respawnOnStart = 1;
 respawnTemplates[] = {"MenuInventory","MenuPosition"};
 
 disabledAI = true;
@@ -17,7 +17,7 @@ class CfgDebriefing
 {
 	class End1
 	{
-		title = "Ending #1";
+		title = "Mission Completed";
 		subtitle = "";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";
@@ -27,7 +27,7 @@ class CfgDebriefing
 
 	class End2
 	{
-		title = "Ending #2";
+		title = "Mission Failed";
 		subtitle = "";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";

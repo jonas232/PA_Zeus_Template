@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=18;
+		nextID=19;
 	};
 	class Camera
 	{
-		pos[]={4511.6533,29.438787,7084.8926};
-		dir[]={0.56675458,-0.82300824,-0.039101552};
-		up[]={0.82115257,0.56787145,-0.05665376};
-		aside[]={-0.068834171,-8.7945955e-007,-0.99767309};
+		pos[]={4510.0103,32.246399,7084.6255};
+		dir[]={0.56025559,-0.82836938,-0.00056047016};
+		up[]={0.82846278,0.5600242,-0.00082956068};
+		aside[]={-0.0010031147,-8.5412103e-007,-1.0000441};
 	};
 };
 binarizationWanted=0;
@@ -24,13 +24,14 @@ addons[]=
 	"A3_Characters_F",
 	"A3_Modules_F_Curator_Curator",
 	"A3_Data_F_Curator_Virtual",
-	"Desert"
+	"Desert",
+	"A3_Modules_F_Multiplayer"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=4;
+		items=5;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -56,6 +57,13 @@ class AddonsMetaData
 		{
 			className="Desert";
 			name="Desert";
+		};
+		class Item4
+		{
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -2362,22 +2370,120 @@ class Mission
 			dataType="Comment";
 			class PositionInfo
 			{
-				position[]={4527.0005,5,7091.1318};
-			};
-			title="Respawn";
-			description="To create new or initial respawn(s), in Zeus; go to the ""Respawn"" tab and place down a respawn for INF/Vehicles in the corresponding SIDE.";
-			id=16;
-		};
-		class Item8
-		{
-			dataType="Comment";
-			class PositionInfo
-			{
 				position[]={4522.8477,5,7091.0928};
 			};
 			title="Template";
 			description="The template adds:" \n "2x Virtual Zeus slots with one Game Master Module each" \n "8x Spectator slots" \n "1x Voted/Logged admin Game Master Module" \n "1x Unarmed Rifleman (Player Slot)" \n "ACE Settings";
 			id=17;
+		};
+		class Item8
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4539.8232,5,7080.9536};
+			};
+			id=18;
+			type="ModuleRespawnPosition_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleRespawnPosition_F_Marker";
+					expression="_this setVariable ['Marker',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleRespawnPosition_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Spawn";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleRespawnPosition_F_Side";
+					expression="_this setVariable ['Side',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="1";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleRespawnPosition_F_ShowNotification";
+					expression="_this setVariable ['ShowNotification',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="1";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleRespawnPosition_F_Type";
+					expression="_this setVariable ['Type',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				nAttributes=5;
+			};
 		};
 	};
 };
