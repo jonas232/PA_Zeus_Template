@@ -1,9 +1,6 @@
 # PA_Zeus_Template
 Template/Basics for a Project Awesome Zeus mission
 
-Respawn:
-To create new or initial respawn(s), in Zeus; go to the "Respawn" tab and place down a respawn for INF/Vehicles in the corresponding SIDE.
-
 Gear:
 To add gear, once in Zeus, add a "Loadouts" module under the "Respawn" tab, add whatever gear loadouts you want from a faction or Arsenal. 
 So setup loadouts in the BI Arsenal beforehand (Not ACE Arsenal)
