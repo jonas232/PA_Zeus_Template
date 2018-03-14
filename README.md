@@ -11,4 +11,5 @@ The template adds:
 - 8x Spectator slots
 - 1x Voted/Logged admin Game Master Module
 - 1x Unarmed Rifleman (Player Slot)
+- 1x Respawn Posistion (Spawn)
 - ACE Settings
