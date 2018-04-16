@@ -10,8 +10,7 @@ corpseLimit = 15;
 corpseRemovalMinTime = 60; //seconds
 corpseRemovalMaxTime = 300; //seconds
 
-// F3 - Briefing Template
-// Credits: BIS - Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+
 
 class CfgDebriefing
 {
