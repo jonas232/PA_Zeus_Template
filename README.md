@@ -7,6 +7,9 @@ So setup loadouts in the BI Arsenal beforehand (Not ACE Arsenal)
 
 Template:
 The template adds:
+
+Pre-configured description.ext
+
 - 2x Virtual Zeus slots with one Game Master Module each
 - 8x Spectator slots
 - 1x Voted/Logged admin Game Master Module
