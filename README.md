@@ -12,7 +12,6 @@ Pre-configured description.ext
 
 - 2x Virtual Zeus slots with one Game Master Module each
 - 8x Spectator slots
-- 1x Voted/Logged admin Game Master Module
 - 1x Unarmed Rifleman (Player Slot)
 - 1x Respawn Posistion (Spawn)
 - ACE Settings
