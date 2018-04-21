@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4528.1157,26.622467,7082.2588};
-		dir[]={0.64159918,-0.76654226,-0.029327279};
-		up[]={0.76586336,0.64203113,-0.035008218};
-		aside[]={-0.045666855,-1.1272932e-006,-0.99900627};
+		pos[]={4532.6611,40.518856,7051.8682};
+		dir[]={-0.0076762578,-0.74456865,0.66757965};
+		up[]={-0.0085616112,0.66737992,0.74464834};
+		aside[]={0.99998611,-1.1135544e-006,0.011495898};
 	};
 };
 binarizationWanted=0;
@@ -2010,7 +2010,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=7;
+		items=6;
 		class Item0
 		{
 			dataType="Group";
@@ -2815,96 +2815,6 @@ class Mission
 			type="VirtualCurator_F";
 		};
 		class Item5
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={4520.9531,5,7084.9517};
-			};
-			id=15;
-			type="ModuleCurator_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleCurator_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="#adminVoted";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleCurator_F_Forced";
-					expression="_this setVariable ['Forced',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleCurator_F_Name";
-					expression="_this setVariable ['Name',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleCurator_F_Addons";
-					expression="_this setVariable ['Addons',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=3;
-						};
-					};
-				};
-				nAttributes=4;
-			};
-		};
-		class Item6
 		{
 			dataType="Logic";
 			class PositionInfo
