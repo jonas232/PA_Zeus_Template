@@ -1,16 +1,28 @@
+author = "j0nas"; // Change this to your name
+onLoadName = "PA Zeus Template"; // Change this to the mission name
+overviewText = "All the basics needed for a PA Zeus gamemode"; //Change this to a quick brief of the mission
+overviewPicture = "project.paa"; //This is the loading screen image
+
 respawn = "BASE";
 respawndelay = 5;
 respawnOnStart = 0;
 respawnTemplates[] = {"MenuInventory","MenuPosition"};
 
-disabledAI = true;
+disabledAI = 1;
+joinUnassigned = 1;
 
-corpseManagerMode = 1;
-corpseLimit = 15;
-corpseRemovalMinTime = 60; //seconds
-corpseRemovalMaxTime = 300; //seconds
+enableDebugConsole = 1;
+allowFunctionsLog = 1;
 
+forceRotorLibSimulation = 0;
 
+////////////////////////////
+
+class Header {
+	gameType = Zeus;
+	minPlayers = 1;
+	maxPlayers = 99;
+};
 
 class CfgDebriefing
 {
